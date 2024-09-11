@@ -14,3 +14,16 @@ echo $?
 - **`%rdi`**: Holds the result of the addition that we will return.
 - **`%rbx`**: Holds the first number of the addition.
 - **`%rsi`**: Holds the second number of the addition.
+
+
+### Commands To Run:
+
+1. **`as add.s -o add.o`**: 
+   - Assemble the source file and generates an object file (`add.o`).
+
+2. **`ld add.o -o add`**:
+   - This command links the object file (`add.o`) to produce a final executable (`add`).
+
+3. **`./add`**:
+   - This command executes the resulting program (`add`). The `./` prefix tells the shell to run the program from the current directory.
+
