@@ -1,11 +1,13 @@
-# Problem 1
+# Problem 1: Simple Program to Exit with Status Code `42`
 
-#### PURPOSE:  Simple program that exits and returns '42' as a status code back to the Linux kernel
-##### INPUT:    none
+### Purpose:
+A simple assembly program that exits and returns the status code `42` back to the Linux kernel.
 
-##### OUTPUT:   returns a status code.  This can be viewed by typing #echo $?
+### Input:
+None. The program does not take any input.
 
-##### VARIABLES:
-######          %rax holds the system call number for exit
-######          %rdi holds the status code we will return
+### Output:
+The program exits with a status code that can be viewed using the command:
+```bash
+echo $?
 
